@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form action="procesarforumlario.php">
+
+        <h2> Input texto </h2>
+        <label for="inputNombre"> Primer nombre </label>
+        <input type="text" id="inputNombre" name="nombre">
+
+        <label for="inputEmail"> Email </label>
+        <input type="text" id="inputEmail" name="email">
+
+        <h2> Input radio</h2>
+
+        <input type="radio" name="fav_lenguaje" id="html" value="HTML">
+        <label for="html"> HTML </label> <br>
+        <input type="radio" name="fav_lenguaje" id="css" value="CSS">
+        <label for="css"> CSS </label> <br>
+        <input type="radio" name="fav_lenguaje" id="java" value="JAVA">
+        <label for="java"> JAVA </label> <br>
+
+        <h2>Input checkbox</h2>
+        <input type="checkbox" name="fav_lenguaje" id="html" value="HTML">
+        <label for="html"> HTML </label> <br>
+        <input type="checkbox" name="fav_lenguaje" id="css" value="CSS">
+        <label for="css"> CSS </label> <br>
+        <input type="checkbox" name="fav_lenguaje" id="java" value="JAVA">
+        <label for="java"> JAVA </label> <br>
+
+    </form>
+</body>
+
+</html>
