@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <!--
+        Crea un formulario de regristro para una empresa de cines que pida:
+
+        - Nombre
+        - Apellidos
+        - Email 
+        - Contraseña (Investiga Input para contraseñas)
+        - Edad 
+        - Fecha de nacimiento (Investiga input de fechas)
+        - Un checkbox para elegir los cines que visitas (añade 4 cines)
+        - Un radio para indicar si se tiene algún tipo de descuento especial
+    -->
+  <body>
+    <form action="formulario.php" method="POST">
+      <h1>FORMULARIO !!!</h1>
+
+      <label for="inputNombre"> Nombre </label>
+      <input type="text" id="inputNombre" name="nombre" /><br /><br />
+
+      <label for="inputApellidos"> Apellidos </label>
+      <input type="text" id="inputApellidos" name="apellidos" /><br /><br />
+
+      <label for="inputEmail"> Email </label>
+      <input type="email" id="inputEmail" name="email" /><br /><br />
+
+      <label for="inputPassword"> Contraseña </label>
+      <input type="password" id="inputPassword" name="contrasena" /><br /><br />
+
+      <label for="inputEdad"> Edad </label>
+      <input type="number" id="inputEdad" name="edad" /><br /><br />
+
+      <label for="inputFechaNacimiento"> Fecha de nacimiento </label>
+      <input
+        type="date"
+        id="inputFechaNacimiento"
+        name="fecha_nacimiento"
+      /><br /><br />
+      <br /><br />
+      <h2>Cines que visitas</h2>
+      <input type="checkbox" id="cine1" name="cines[]" value="Cine1" />
+      <label for="cine1">Cine 1</label>
+
+      <input type="checkbox" id="cine2" name="cines[]" value="Cine2" />
+      <label for="cine2">Cine 2</label>
+
+      <input type="checkbox" id="cine3" name="cines[]" value="Cine3" />
+      <label for="cine3">Cine 3</label>
+
+      <input type="checkbox" id="cine4" name="cines[]" value="Cine4" />
+      <label for="cine4">Cine 4</label>
+
+      <h3>Descuento especial:</h3>
+      <input type="radio" id="descuentoSi" name="descuento" value="Si" />
+      <label for="descuentoSi">Sí</label>
+
+      <input type="radio" id="descuentoNo" name="descuento" value="No" />
+      <label for="descuentoNo">No</label> <br />
+      <br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
