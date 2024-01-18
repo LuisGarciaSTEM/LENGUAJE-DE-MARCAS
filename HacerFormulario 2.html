@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario 2</title>
+  </head>
+  <body>
+    <form action="formulario.php" method="POST">
+      <h1>FORMULARIO 2 !!!</h1>
+      <fieldset>
+        <legend>Rellenar:</legend>
+        <input type="radio" id="ingles" name="idioma" value="ingles" />
+        <label for="ingles"> Inglés</label> <br />
+
+        <input type="radio" id="Aleman" name="idioma" value="aleman" />
+        <label for="Aleman">Alemán </label> <br />
+
+        <input type="radio" id="Frances" name="idioma" value="frances" />
+        <label for="Frances">Francés </label> <br />
+        <br />
+        <label for="USB">Modelo de USB:</label>
+        <select name="USB" id="USB">
+          <option value="3.0">3.0</option>
+          <option value="2.0">2.0</option>
+          <option value="2.1">2.1</option>
+        </select>
+        <br /><br />
+        <label for="inputNombre"> Nombre </label>
+        <input type="text" id="inputNombre" name="nombre" />
+        <br />
+        <label for="inputApellidos"> Apellidos </label>
+        <input type="text" id="inputApellidos" name="apellidos" />
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Indica sus preferencias por favor:</legend>
+        <label for="sexo"></label>
+        <select name="sexo" id="sexo" multiple>
+          <option value="hombre">Hombre</option>
+          <option value="mujer">Mujer</option>
+          <option value="pnd">Prefiero no decirlo </option>
+        </select>
+        <br />
+        <input type="checkbox" id="mujer" name="sexo" value="Mujer" />
+        <label for="mujer">Mujer</label>
+        <br />
+        <input type="checkbox" id="hombre" name="sexo" value="Hombre" />
+        <label for="hombre">Hombre</label>
+        <br /><br />
+        <label for="inputFechaNacimiento"> Fecha de nacimiento </label>
+        <input type="date" id="inputFechaNacimiento" name="fecha_nacimiento" />
+      </fieldset>
+      <br />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
