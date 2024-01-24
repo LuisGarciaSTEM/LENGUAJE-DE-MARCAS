@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario 2</title>
+    <title>Formulario 3</title>
   </head>
   <body>
     <form action="formulario.php" method="POST">
@@ -12,7 +12,7 @@
         <legend>Indique sus preferencias por favor</legend>
 
         <label for="inputFechaNacimiento"> Elija una fecha </label>
-        <input type="date" id="inputFechaNacimiento" name="fecha_nacimiento" />
+        <input type="date" id="inputFechaNacimiento" name="fecha_nacimiento" value="2024-01-12" disabled/>
         <br />
 
         <label for="fichero"> Elija un fichero </label>
@@ -44,6 +44,7 @@
           id="inputNombre"
           name="nombre"
           placeholder="Luis"
+          required
         /><br />
         <label for="inputApellidos"> Apellidos </label>
         <input
@@ -51,7 +52,8 @@
           id="inputApellidos"
           name="apellidos"
           placeholder="García Díaz"
-        />
+          required
+          />
         <br />
         <label for="inputDireccion"> Dirección </label>
         <input
@@ -59,19 +61,19 @@
           id="inputDireccion"
           name="direccion"
           placeholder="Calle locura 17"
+          required
         /><br />
         <br />
 
         <label for="inputColor">Elija un color</label>
-        <input type="color" id="inputColor" name="color" /><br />
+        <input type="color" id="inputColor" name="color" value="#ff0000"/><br />
 
         <textarea
           name="texto"
-          id=""
           cols="60"
           rows="10"
           placeholder="Utiliza este cuadro para escribir..."
-        > hola
+        > 
         </textarea
         ><br />
 
