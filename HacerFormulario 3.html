@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario 2</title>
+  </head>
+  <body>
+    <form action="formulario.php" method="POST">
+      <h1>FORMULARIO 3 !!!</h1>
+      <fieldset>
+        <legend>Indique sus preferencias por favor</legend>
+
+        <label for="inputFechaNacimiento"> Elija una fecha </label>
+        <input type="date" id="inputFechaNacimiento" name="fecha_nacimiento" />
+        <br />
+
+        <label for="fichero"> Elija un fichero </label>
+        <input type="file" /><br />
+
+        <input type="radio" id="Amd" name="CPU" value="amd" />
+        <label for="Amd"> AMD </label>
+        <input type="radio" id="Intel i5" name="CPU" value="intel i5" />
+        <label for="Intel i5">Intel i5 </label>
+        <input type="radio" id="Intel i7" name="CPU" value="intel i7" />
+        <label for="Intel i7">Intel i7 </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Indica sus preferencias por favor</legend>
+
+        <input type="radio" id="Matemáticas" name="CPU" value="matemáticas" />
+        <label for="Matemáticas"> Matemáticas </label>
+        <input type="radio" id="Historia" name="CPU" value="historia" checked />
+        <label for="Historia">Historia </label>
+        <input type="radio" id="Geografía" name="CPU" value="geografia" />
+        <label for="Geografía">Geografía </label>
+
+        <input type="radio" id="Lengua" name="CPU" value="lengua" />
+        <label for="Lengua">Lengua </label> <br />
+        <label for="inputNombre"> Nombre </label>
+        <input
+          type="text"
+          id="inputNombre"
+          name="nombre"
+          placeholder="Luis"
+        /><br />
+        <label for="inputApellidos"> Apellidos </label>
+        <input
+          type="text"
+          id="inputApellidos"
+          name="apellidos"
+          placeholder="García Díaz"
+        />
+        <br />
+        <label for="inputDireccion"> Dirección </label>
+        <input
+          type="text"
+          id="inputDireccion"
+          name="direccion"
+          placeholder="Calle locura 17"
+        /><br />
+        <br />
+
+        <label for="inputColor">Elija un color</label>
+        <input type="color" id="inputColor" name="color" /><br />
+
+        <textarea
+          name="texto"
+          id=""
+          cols="60"
+          rows="10"
+          placeholder="Utiliza este cuadro para escribir..."
+        >
+        </textarea
+        ><br />
+
+        <label for="inputFechaNacimiento"> Elija una fecha </label>
+        <input type="date" id="inputFechaNacimiento" name="fecha_nacimiento" />
+        <br />
+
+        <label for="USB"></label>
+        <select name="USB" id="USB">
+          <option value="Inglés">Inglés</option>
+          <option value="Español">Español</option>
+          <option value="Aleman">Aleman</option>
+        </select>
+        <br />
+
+        <label for="inputHora"> Elija una hora </label>
+        <input type="time" id="inputHora" name="hora" /> <br />
+
+        <label for="fichero"> Elija un fichero </label>
+        <input type="file" /><br />
+
+        <input type="checkbox" id="mujer" name="sexo" value="Mujer" />
+        <label for="mujer">Mujer</label>
+        <input type="checkbox" id="hombre" name="sexo" value="Hombre" />
+        <label for="hombre">Hombre</label>
+      </fieldset>
+      <br />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
