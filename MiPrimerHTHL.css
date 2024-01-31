@@ -1,3 +1,26 @@
-h1{
-    color:blue;
+h1, h2 {
+  color: green;
+  background-color: blueviolet;
+}
+
+h2.h2tuneado {
+    color: brown;
+    background-color: bisque;
+}
+
+.fondoNaranja{
+    
+}
+
+p {
+  color: aqua;
+}
+
+.loco{
+    color: blue;
+}
+
+#ptuneado1{
+    color: brown;
+    background-color: burlywood;
 }
