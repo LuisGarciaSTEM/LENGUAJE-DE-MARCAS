@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+}
+
+div {
+  background-color: antiquewhite;
+  border: green 3px solid;
+  height: 400px;
+}
+
+#lorem {
+  border: red 2px solid;
+  margin: auto;
+}
+
+h1 {
+  border: red 2px solid;
+  margin: 0px;
+}
