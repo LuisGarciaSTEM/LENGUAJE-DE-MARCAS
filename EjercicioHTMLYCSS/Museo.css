@@ -11,15 +11,43 @@ h2 {
   text-align: center;
 }
 
+h2.izquierda{
+  text-align: left;
+}
+
 .Uno {
   border: 50px;
   border: solid;
   border-color: #e64d00;
   border-width: 10px;
   margin: 2%;
+  background-color: white;
 }
-
-#british-museum {
+.Dos {
+  border: 50px;
+  border: solid;
+  border-color: #e64d00;
+  border-width: 10px;
+  margin: 2%;
+  background-color: white;
+}
+.Tres {
+  border: 50px;
+  border: solid;
+  border-color: #e64d00;
+  border-width: 10px;
+  margin: 2%;
+  background-color: white;
+}
+.Cuatro {
+  border: 50px;
+  border: solid;
+  border-color: #e64d00;
+  border-width: 10px;
+  margin: 2%;
+  background-color: white;
+}
+img {
   margin: 2%;
   padding: 1%;
   border: solid;
