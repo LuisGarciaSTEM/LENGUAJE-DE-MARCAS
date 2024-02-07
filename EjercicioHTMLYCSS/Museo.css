@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.Grande {
+  background-color: #4db2a9;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.Uno {
+  border: 50px;
+  border: solid;
+  border-color: #e64d00;
+  border-width: 10px;
+  margin: 2%;
+}
+
+#british-museum {
+  margin: 2%;
+  padding: 1%;
+  border: solid;
+  border-color: #e64d00;
+  border-width: 10px;
+}
